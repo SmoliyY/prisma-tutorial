@@ -15,7 +15,7 @@ model User {
   name         String      @unique
   email        String      @unique
   userPref     Preferences? @relation(fields: [userPrefId], references: [id])
-  userPrefId   String      @unique
+  userPrefId   String?      @unique
   role         Role        @default(BASIC)
   writtenPosts Post[]      @relation("writtenPosts")
   likedPosts   Post[]      @relation("likedPosts")
