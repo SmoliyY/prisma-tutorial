@@ -1,7 +1,7 @@
 import { PrismaClient } from "@prisma/client";
 const prisma = new PrismaClient();
 
-console.log('hey')
+console.log('hey2')
 
 const main = async () => {
   await prisma.post.deleteMany();
