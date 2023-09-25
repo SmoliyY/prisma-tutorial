@@ -1,7 +1,7 @@
 import { PrismaClient } from "@prisma/client";
 const prisma = new PrismaClient();
 
-console.log('1123131313')
+console.log('localtunnel')
 
 const main = async () => {
   await prisma.post.deleteMany();
