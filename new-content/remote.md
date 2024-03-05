@@ -2,7 +2,7 @@
 commit
 changes
 open pr to main
-fffff
+
 
 pr2
 remote-2
@@ -16,4 +16,4 @@ main2
 pr-to-main
 one
 commit-maindddd
-to main3333
+to main
